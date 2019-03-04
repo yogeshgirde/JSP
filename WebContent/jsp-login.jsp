@@ -8,8 +8,10 @@
 </head>
 <body><font size="60" color="orange">
 <h2>Student is Conform</h2></font>
-<h2><font color="green"><%=request.getParameter("fname") %>
+<h2>full name is:<font color="green"><%=request.getParameter("fname") %>
 <%=request.getParameter("lname") %></font></h2>
-<font color="purple" size="15"><%=request.getParameter("Country") %></font>
+<font color="purple" size="15">My couuntry :<%=request.getParameter("Country") %></font><br>
+<font color="red" size="15">best language is :<%=request.getParameter("flanguage") %></font>
+
 </body>
 </html>
